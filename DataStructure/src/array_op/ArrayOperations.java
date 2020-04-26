@@ -23,7 +23,7 @@ public class ArrayOperations {
 				array[i] = array[i - 1];    //Shifting the elements from beginning
 
 			array[0] = element;
-			index++;    //Incremented as it always points to last element
+			index++;    //Incremented as it always points to next empty slot
 		}
 
 	}
